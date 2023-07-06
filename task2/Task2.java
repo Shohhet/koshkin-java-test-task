@@ -14,5 +14,6 @@ public class Task2 {
         System.out.println(
                 scanner.nextLine().equals(NAME) ? HELLO_MSG : WRONG_NAME_MSG
         );
+        scanner.close();
     }
 }

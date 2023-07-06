@@ -19,6 +19,6 @@ public class Task3 {
         } catch (NumberFormatException e) {
             System.out.println(WRONG_INPUT_MSG);
         }
-
+        scanner.close();
     }
 }
